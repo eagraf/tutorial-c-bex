@@ -1,0 +1,22 @@
+{
+	"name": "FuzzBrokenMethod",
+	"namespace": "",
+	"project_namespace": "",
+	"configuration_name": "base",
+	"signature": "",
+	"language": "c++",
+	"score": 0,
+	"harness": "",
+	"harness_name": "",
+	"imports": null,
+	"line_number": 3,
+	"file_location": "fuzz.cpp",
+	"fuzz_image": "",
+	"fuzz_binary": "libaout.so",
+	"test_binary": "libaout.so",
+	"coverage_binary": "libaout.so",
+	"fuzz_function": "FuzzBrokenMethod",
+	"fuzz_engine": "bex",
+	"generated": false,
+	"bin_path": "/temp_src"
+}

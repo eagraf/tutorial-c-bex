@@ -1,0 +1,9 @@
+{
+	"expected_fuzzers": {
+		"BrokenMethod": {
+			"fuzz_binary": "libaout.so"
+		}
+	},
+	"docker_image": "fuzzbuzz/clang:latest",
+	"fuzz_engine": "bex"
+}

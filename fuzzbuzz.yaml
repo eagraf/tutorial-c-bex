@@ -1,0 +1,8 @@
+base:
+  language: c++
+  engine: bex 
+  steps:
+    - run: $CXX $CXXFLAGS ./main.cpp ./api.cpp ./fuzz.cpp
+  sanitizers:
+    address: {}
+    undefined: {}
