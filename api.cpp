@@ -23,6 +23,7 @@ size_t BrokenMethod(std::string str) {
 }
 
 void BrokenMethod2(std::string str) {
+  if (str[0] == 'a') {assert(0);}
   if (str[0] != 'q') {return;}
   if (str[1] != 'w') {return;}
   if (str[2] != 'e') {return;}
