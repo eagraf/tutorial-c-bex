@@ -6,3 +6,4 @@ base:
   sanitizers:
     address: {}
     undefined: {}
+    thread: {}
