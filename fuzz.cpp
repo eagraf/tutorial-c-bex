@@ -30,7 +30,7 @@ void FuzzBrokenMethod6(std::string data) {
 }*/
 
 
-void FuzzBrokenMethod7(std::string data) {
+/*void FuzzBrokenMethod7(std::string data) {
     BrokenMethod2(data);
 }
 
