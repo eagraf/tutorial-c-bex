@@ -1,6 +1,7 @@
 #include "api.h"
 #include "fuzzbuzz.hxx"
 
+FZBZ_TARGET_CLASS(FuzzBrokenMethodClient);
 struct FuzzBrokenMethodClient {
     FuzzBrokenMethodClient(fzbz::Fuzzer &f) {
         auto gen = fzbz::generator::string<std::string>();
