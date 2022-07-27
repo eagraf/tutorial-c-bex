@@ -6,7 +6,7 @@ struct FuzzBrokenMethodClient {
     FuzzBrokenMethodClient(fzbz::Fuzzer &f) {
         auto gen = fzbz::generator::string<std::string>();
         auto target = fzbz::fuzzTarget([&](auto Data) {
-            BrokenMethod(Data);
+            BrokenMethod2(Data);
             return 0;
         }, gen);
 
